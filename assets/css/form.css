@@ -1,0 +1,45 @@
+.form-label {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.form-control {
+  background-color: #fff;
+  padding: 0.54rem 1rem;
+  border: 1px solid #d8d6de;
+}
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: #82beff;
+  box-shadow: 0 3px 10px 0 rgba(34, 41, 47, 0.1);
+}
+
+.form-control::placeholder {
+  color: #b9b9c3;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  color: #4d5156;
+  background-color: #efefef;
+}
+
+.form-select {
+  padding: 0.541rem 2.25rem 0.541rem 0.75rem;
+  color: #6e6b7b;
+  border: 1px solid #d8d6de;
+  background-color: #fff;
+}
+
+.form-select:focus {
+  box-shadow: 0 3px 10px 0 rgba(34, 41, 47, 0.1);
+}
+
+.form-select option:disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.invalid-feedback {
+  color: #ea5455;
+}
